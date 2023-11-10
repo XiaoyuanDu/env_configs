@@ -146,3 +146,30 @@ bt() {
   echo "Run $i/$run_times times. Success $success_times times." 
   
 }
+alias cdw="cd ~/onWorking/"
+alias gcz="git cz"
+alias gcl="git clone"
+alias gck="git checkout"
+alias gps="git push"
+alias gpl="git pull"
+alias ll="ls -l"
+alias lla="ls -la"
+alias pt="pytest"
+
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# Shortcuts
+alias dl="cd ~/Downloads"
+alias g="git"
+alias pmr="python manage.py runserver"
+alias dp="daphne"
+alias sva="source .venv/bin/activate"
+alias glg="git log --all --graph --decorate"
+alias pr="poetry run"
+
