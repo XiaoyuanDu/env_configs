@@ -173,3 +173,6 @@ alias sva="source .venv/bin/activate"
 alias glg="git log --all --graph --decorate"
 alias pr="poetry run"
 
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
