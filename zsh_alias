@@ -19,3 +19,9 @@ alias -- -="cd -"
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias g="git"
+alias pmr="python manage.py runserver"
+alias dp="daphne"
+alias sva="source .venv/bin/activate"
+alias glg="git log --all --graph --decorate"
+alias pr="poetry run"
+
